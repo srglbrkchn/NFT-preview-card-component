@@ -1,9 +1,9 @@
 import React from "react";
 
-const Heading = () => {
+const Heading = (props) => {
     return (
         <h3 className="heading">
-            Equilibrium #3429
+            {props.content}
         </h3>
     );
 }

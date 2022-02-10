@@ -1,9 +1,9 @@
 import React from "react";
 
-const Info = () => {
+const Info = (props) => {
     return (
         <p className="info">
-            Our Equilibrium collection promotes balance and calm.
+            {props.content}
         </p>
     );
 }

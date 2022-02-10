@@ -1,8 +1,8 @@
 import React from "react";
 
-const Pic = ()=> {
+const Pic = (props)=> {
     return (
-        <img className="art" src="./images/image-equilibrium.jpg" alt="Equilibrium #3429"></img>
+        <img className="art" src={props.source} alt="Equilibrium #3429"></img>
     );
 }
 
