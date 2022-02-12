@@ -9,7 +9,6 @@ const Frame = ()=> {
             <Pic source="./images/image-equilibrium.jpg" />
             <Text />
             <Profile />
-            Creation of Jules Wyvern
         </div>
     );
 }
