@@ -26,7 +26,6 @@ body {
     position: relative;
 }
 
-
 .overlay {
     background-color: rgba(0,255,247, .5);
     position: absolute ;
@@ -120,4 +119,10 @@ body {
 .author-name:hover, .heading:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .frame {
+        margin: 5rem auto;
+    }
 }
