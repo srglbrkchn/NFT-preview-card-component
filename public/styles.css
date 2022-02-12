@@ -19,14 +19,15 @@ body {
     color:hsl(0, 0%, 100%);
 }
 
-.art {
+.art, .art-pic {
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-radius: 10px;
     position: relative;
 }
 
-.overlay{
+
+.overlay {
     background-color: rgba(0,255,247, .5);
     position: absolute ;
     border-radius: 10px;
@@ -39,6 +40,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .heading {
